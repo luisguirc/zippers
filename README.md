@@ -1,4 +1,4 @@
-# Zippers: funcionamento, casos de uso, e exemplos
+# Zippers: propósito, funcionamento, e mini-jogo ZipperTime
 ## Introdução e motivação
 Imagine que você está em um labirinto, tentando encontrar uma forma de sair. Você segue por um caminho, escolhendo aleatoriamente a cada cruzamento, até que se depara com uma seção sem saída. Digamos que, neste momento, você deseja voltar para a última bifurcação (ou divergência) para seguir por outro caminho. Seria inconveniente (e exigiria um grande tempo) ter que reiniciar o labirinto, repetindo cada passo que você deu do início até chegar neste cruzamento desejado, para então seguir por outro corredor.
 
