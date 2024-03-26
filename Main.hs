@@ -103,7 +103,7 @@ subirM (Zipper t (Passos (Esq x r : bs))) = Just (Zipper (No t x r) (Passos bs))
 subirM (Zipper t (Passos (Dir x l : bs))) = Just (Zipper (No l x t) (Passos bs))
 subirM (Zipper _ (Passos []))             = Nothing
 
-----------------Jogo: ZipperTime----------------------------------------
+----------------Jogo: TimeZipper----------------------------------------
 
 data Resultado = Sucesso | Falha deriving (Show, Eq)
 
