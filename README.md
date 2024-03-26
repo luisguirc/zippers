@@ -1,4 +1,4 @@
-# Zippers: propósito, funcionamento, e mini-jogo ZipperTime
+# Zippers: propósito, funcionamento, e mini-jogo TimeZipper
 ## Introdução e motivação
 Imagine que você está em um labirinto, tentando encontrar uma forma de sair. Você segue por um caminho, escolhendo aleatoriamente a cada cruzamento, até que se depara com uma seção sem saída. Digamos que, neste momento, você deseja voltar para a última bifurcação (ou divergência) para seguir por outro caminho. Seria inconveniente (e exigiria um grande tempo) ter que reiniciar o labirinto, repetindo cada passo que você deu do início até chegar neste cruzamento desejado, para então seguir por outro corredor.
 
@@ -232,7 +232,7 @@ Nothing
 ```
 Assim, quando houver qualquer "falha" (alguma função retornar *Nothing* ao longo do percurso), o resultado de toda o percurso também será *Nothing*.
 
-## Caso de uso prático: ZipperTime
+## Caso de uso prático: TimeZipper
 Antes de seguir adiante, é recomendado tentar rodar o jogo por conta própria! Assim, você vai entender um pouco mais do seu funcionamento. Você pode baixar o arquivo e executá-lo com o GHCI, ou acessar o [Replit](https://replit.com/@luisguirc/zipper?v=1) para executá-lo em uma VM.
 Você também pode checar o arquivo deste tutorial neste [link](https://github.com/luisguirc/zippers/blob/main/Main.hs).
 
