@@ -234,6 +234,7 @@ Assim, quando houver qualquer "falha" (alguma função retornar *Nothing* ao lon
 
 ## Caso de uso prático: ZipperTime
 Antes de seguir adiante, é recomendado tentar rodar o jogo por conta própria! Assim, você vai entender um pouco mais do seu funcionamento. Você pode baixar o arquivo e executá-lo com o GHCI, ou acessar o [Replit](https://replit.com/@luisguirc/zipper?v=1) para executá-lo em uma VM.
+Você também pode checar o arquivo deste tutorial neste [link](https://github.com/luisguirc/zippers/blob/main/Main.hs).
 
 ### Definições
 Vamos, por fim, construir um jogo de decisões baseado na implementação em árvore de um Zipper. Este pode ser categorizado como um [livro-jogo](https://pt.wikipedia.org/wiki/Livro-jogo), uma história ficcional que se baseia em decisões do leitor. Tais decisões acabam por definir o fluxo da história.
@@ -266,7 +267,7 @@ s0 = MKSituacao "Uma pessoa encapuzada sai correndo de dentro, com o que parece 
 
 ### Execução
 
-> As funções aqui contidas estão simplificadas - com menos impressão de texto na tela, principalmente - para melhor compreensão de seu funcionamento. Para funções completas, acesse o arquivo do código.
+> As funções aqui contidas estão simplificadas - com menos impressão de texto na tela, principalmente - para melhor compreensão de seu funcionamento. Para funções completas, acesse o [arquivo do código](https://github.com/luisguirc/zippers/blob/main/Main.hs).
 
 Com as definições, construiremos o Zipper do enredo do jogo (de tipo ArvoreZipper Situacao) usando o arcabouço de funções que já definimos para árvores binárias. Podemos construir o Zipper usando uma lista com todas as situações e a função *criarArvoreZipperDeLista*, ou ainda usar de *irParaEsquerda* ou *irParaDireita* para navegar pelas escolhas do usuário.
 
@@ -323,7 +324,7 @@ data Situacao = MKSituacao
     deriving (Show, Eq)
 ```
 Portanto, em _conteudoSituacao teremos apenas as opções (Final Falha), (Final Sucesso), e NaoFinal.
-Caso tenha interesse em entender mais sobre o funcionamento do jogo, acesse o arquivo de código.
+Caso tenha interesse em entender mais sobre o funcionamento do jogo, acesse o [arquivo de código](https://github.com/luisguirc/zippers/blob/main/Main.hs).
 
 Espero que tenha gostado e se interessado pelos Zippers neste breve tutorial!
 Como aprendido, não desperdice seu tempo ;)
